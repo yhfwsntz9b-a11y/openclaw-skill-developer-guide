@@ -1,0 +1,55 @@
+# OpenClaw Skill Developer Guide
+
+*.md
+*.yaml
+*.yml
+*.json
+*.sh
+*.py
+
+# 临时文件
+*.tmp
+*.swp
+*.swo
+*~
+
+# 日志
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# OpenClaw 运行时
+memory/
+data/
+*.sock
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 环境
+.env
+.env.local
